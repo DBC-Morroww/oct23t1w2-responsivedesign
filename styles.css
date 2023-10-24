@@ -5,8 +5,51 @@
 nav{
     display:flex;
     width: 100dvw;
+    background-color: aquamarine;
 }
 
 nav > *{
     width: 50dvw;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#socialfeed{
+    background-color: aqua;
+    width: 90dvw;
+    height: 90dvw;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    position:relative;
+    left: 5dvw;
+    right: 5dvw;
+
+    
+}
+    
+.postcard{
+    width: 80dvw;
+    height: 10dvw;
+    background-color: blanchedalmond;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+
+}
+
+.postimage{
+    height: 10dvw;
+    width: 10dvw;
+    background-color: black;
+    color: white;
+    position: relative;
+    bottom: 25%
 }
